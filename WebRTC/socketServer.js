@@ -10,9 +10,9 @@ if (process.env.XIRSYS) {
 } else {
 	throw 'No XIRSYS api key supplied'
 }
-var identity = 'benuwa';
+var identity = 'drtnf';
 var application = 'dojo';
-var domain = 'coderdojo-uwa.com.au';
+var domain = 'remotedojo.net';
 // Attach the websocket handling
 var io = socketio();
 
