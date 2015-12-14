@@ -1,0 +1,11 @@
+forever stopall
+cd ./WebRTC
+sudo npm install
+sudo npm update
+export PORT=8000
+forever start ./bin/www
+cd ../Administrator
+sudo npm install
+sudo npm update
+export PORT=8001
+forever start ./bin/www.js 
